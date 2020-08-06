@@ -1,7 +1,6 @@
 {
   "name": "sprint12",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -18,5 +17,14 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishovKA/sprint12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shishovKA/sprint12/issues"
+  },
+  "homepage": "https://github.com/shishovKA/sprint12#readme",
+  "description": ""
 }
