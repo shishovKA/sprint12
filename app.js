@@ -17,7 +17,7 @@ const users = require('./routes/users.js');
 const cards = require('./routes/cards');
 
 app.use('/users', users);
-app.use(cards);
+app.use('/cards', cards);
 app.use(errorNotFound);
 
 app.listen(PORT, () => {
