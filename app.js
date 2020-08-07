@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //  обработчик ошибки 404
 const errorNotFound = (req, res) => {
-  res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
+  res.status(404).json({ message: 'Запрашиваемый ресурс не найден' });
 };
 
 //  импортируем роуты
